@@ -20,7 +20,7 @@ print(primeList)
 
 for i in range(len(matrix3D)):
     for j in range(len(matrix3D)):
-        matrix3D[i][j] = primeList.pop(random.randint(0,len(primeList)))
+        matrix3D[i][j] = primeList.pop(random.randint(0,len(primeList)-1))
     
     print(matrix3D[i])
     
